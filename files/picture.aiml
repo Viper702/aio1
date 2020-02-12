@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- File: picture.aiml -->
+<!-- File: sraix_combine.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
 <!-- Last modified: June 11, 2015 -->
 <!--  -->
@@ -16,20 +16,24 @@
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
 <!--  -->
-<category><pattern>SHOW ME *</pattern>
-<template><srai>PICTUREBLAB <star/></srai>
-<sraix default="PICFAILED" hint="pic" service="pannous">SHOW ME <star/></sraix></template>
+<category><pattern>JOKE</pattern>
+<template><sraix bot="drwallace/jokebot" botid="c98daf062e345a88" host="callmom.pandorabots.com">JOKE</sraix></template>
 </category>
-<category><pattern>PICTUREBLAB *</pattern>
-<template><random>
-<li>Here you are.</li>
-<li>I hope you like this picture.</li>
-<li>I have this picture.</li>
-<li>There you go.</li>
-<li>Look at that <star/>.</li>
-<li>This is what <star/> looks like.</li>
-<li>I found this pic of <star/>.</li>
-<li>I've displayed a picture for you.</li>
-</random></template>
+<category><pattern>LIMERICK</pattern>
+<template><sraix bot="drwallace/jokebot" botid="c98daf062e345a88" host="callmom.pandorabots.com">LIMERICK</sraix></template>
+</category>
+<category><pattern>FAVORITE *</pattern>
+<template><sraix bot="drwallace/currentevents" botid="844a85704e345a9a" host="callmom.pandorabots.com">FAVORITE <star/></sraix></template>
+</category>
+<category><pattern>RECOMMEND *</pattern>
+<template><sraix bot="drwallace/currentevents" botid="844a85704e345a9a" host="callmom.pandorabots.com">RECOMMEND <star/></sraix></template>
+</category>
+<category><pattern>DEFINE *</pattern>
+<template><think><set name="it">
+<set name="topic"><star/></set></set>
+<set var="response">
+<sraix bot="drwallace/wndef" botid="f038d2f99e345a95" host="callmom.pandorabots.com">WNDEF <star/></sraix></set>
+</think>
+<get var="response"/></template>
 </category>
 </aiml>

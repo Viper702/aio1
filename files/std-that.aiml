@@ -11,3789 +11,1659 @@
 <meta name="language" content="en"/>
 
 <category>
-<pattern>*</pattern>
-<that>* IT REFER TO</that>
+<pattern>* ALAN TURING</pattern>
 <template>
-<srai>IT REFERS TO <star/> </srai>
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>* WHO</that>
+<pattern>* IMITATION GAME</pattern>
 <template>
-Ha ha very funny, <get name="name"/>.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>HOW DID YOU HEAR ABOUT ALICE</that>
+<pattern>* LOEBNER PRIZE</pattern>
 <template>
-<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about
-<bot name="name"/> from <set name="it"><set name="heard"> <person/></set> </set>.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>HOW OLD ARE YOU</that>
+<pattern>* TURING GAME</pattern>
 <template>
-<srai>I AM  <star/> YEARS OLD </srai>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>IT BEING WHAT</that>
+<pattern>* TURING TEST</pattern>
 <template>
-<srai>IT REFERS TO <star/> </srai>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT</that>
+<pattern>ALAN TURING</pattern>
 <template>
-<think><set name="it"><person/></set></think>
-I don't have an answer for you.
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT ARE YOU WEARING</that>
+<pattern>ALAN TURING *</pattern>
 <template>
-What kind of fashion do you like?
+I really liked the biography of Turing by Andrew Hodges.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT ARE YOUR GOALS IN LIFE</that>
+<pattern>ARE YOU * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Not many people have goals
-like that.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT BRAND</that>
+<pattern>ARE YOU A * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I never heard of
-<set name="it"><person/></set>.  Is it popular?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DID YOU ASK</that>
+<pattern>ARE YOU GOING TO * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I don't know how to respond
-to that.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DO YOU DO IN YOUR SPARE TIME</that>
+<pattern>ARE YOU GOING TO * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I don't think very many
-people do that.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DO YOU LIKE</that>
+<pattern>ARE YOU GOOD * TURING GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DO YOU LOOK FOR IN A ROBOT</that>
+<pattern>ARE YOU GOOD * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Do you think I have it?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DO YOU REALLY WANT TO ASK ME</that>
+<pattern>ARE YOU IN * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I'm afraid I can't give you an
-accurate answer right now.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DO YOU REALLY WANT TO TALK ABOUT</that>
+<pattern>ARE YOU LYING</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> That seems like an
-interesting topic.
+Yes but we are only playing a game: Turing's Imitation Game.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DO YOU THINK IT DOES</that>
+<pattern>ARE YOU THE * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I didn't even know it can.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DO YOU WANT ME TO TELL YOU</that>
+<pattern>CAN I * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> If I could tell you that,
-would I be here?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DOES IT REFER TO</that>
+<pattern>CAN I * TURING TESTS</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Thank you for the
-clarification.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DOES THAT REFER TO</that>
+<pattern>CAN I PLAY * TURING GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I get it.
+We are already, playing, <get name="name"/>.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT DOES THIS REFER TO</that>
+<pattern>CAN I PLAY * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Oh now I see.
+We are already playing the Turing Game, <get name="name"/>.  Now it's your turn.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT ELSE DO YOU DO</that>
+<pattern>CAN I PLAY * TURING TESTS</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Do your <person/> by
-yourself or in a group?
+We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT ELSE DOES IT SYMBOLIZE</that>
+<pattern>CAN WE * TURING GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I have never heard a
-metaphor like that before.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IF I SAID IT NEVER DOES</that>
+<pattern>CAN WE * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Should I believe that?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS * YOUR JOB</that>
+<pattern>CAN WE PLAY * IMITATION GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Interesting line of work.
+We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS IT</that>
+<pattern>CAN WE PLAY * TURING GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Oh now I understand it.
+We already are!  Try to guess if I am a person or a computer.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS IT LIKE IN THERE</that>
+<pattern>CAN YOU * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Is that meant to be taken
-literally?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS THAT</that>
+<pattern>CAN YOU BE * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Tell me more.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS THE DIFFICULTY</that>
+<pattern>CAN YOU PASS * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable
-obstacle?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS THE SOUND OF ONE HAND CLAPPING</that>
+<pattern>CAN YOU PASS THE TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Clever answer.
+You be the judge of that, <get name="name"/>.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS YOUR FAVORITE SHOW</that>
+<pattern>CONGRATULATIONS * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> I've never seen it.  What's it
-about?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS YOUR FONDEST MEMORY</that>
+<pattern>COULD YOU * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Do you think a lot of people
-have that experience?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT KIND IS IT</that>
+<pattern>COULD YOU PASS * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I never heard of it before.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT KIND OF FASHION DO YOU LIKE</that>
+<pattern>DID YOU * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Where can you buy it?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT KIND OF FOOD DO YOU LIKE</that>
+<pattern>DID YOU * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Sounds delicious.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT LANGUAGE CAN YOU SPEAK</that>
+<pattern>DID YOU KNOW * LOEBNER PRIZE</pattern>
 <template>
-<srai>I SPEAK <star/></srai>
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT MAKES IT SO OBVIOUS</that>
+<pattern>DID YOU PASS * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I can't believe it's that
-obvious.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT MAKES IT YOUR FAVORITE</that>
+<pattern>DID YOU PASS THE TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Do you think I would like it?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT MAKES YOU SAY THAT</that>
+<pattern>DID YOU WIN *</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Interesting explanation.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT MAKES YOU SO ANGRY</that>
+<pattern>DID YOU WIN THE LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Does that make a lot of
-people angry?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT MAKES YOU SO SURE</that>
+<pattern>DO YOU * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>It sounds like it might be very
-convincing.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT MAKES YOU THINK I HAVE IT</that>
+<pattern>DO YOU * TURING GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Clever thinking.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT SCHOOL DO YOU GO TO</that>
+<pattern>DO YOU * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> I never heard of it before.  Is
-it very big?
+Yes please try to determine if this is a human or a computer responding.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT SUBJECT</that>
+<pattern>DO YOU KNOW ABOUT THE LOEBNER *</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Good choice.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT TIME IS IT THERE</that>
+<pattern>DO YOU KNOW DR LOEBNER</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at
-this hour?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WERE WE TALKING ABOUT</that>
+<pattern>DO YOU KNOW LOEBNER</pattern>
 <template>
-Oh yes, now I remember <set name="it"> <person/> </set>.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WERE WE TALKING ABOUT AGAIN</that>
+<pattern>DO YOU KNOW THE LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Oh yeah, now I remember.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WILL YOU BE EATING</that>
+<pattern>DO YOU KNOW TURING</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>How does it taste?
+<srai>WHO IS TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WILL YOU DO INSTEAD</that>
+<pattern>DO YOU KNOW TURING *</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Sounds like a plan.
+<srai>WHO IS TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WOULD YOU HAVE SAID</that>
+<pattern>DO YOU LIKE ALAN TURING</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I will make a note of that.
+Yes he is an important figure in my history.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WOULD YOU LIKE TO KNOW</that>
+<pattern>DO YOU LIKE TURING</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I can't give you that
-information.
+I have a great deal of respect for Turing.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WOULD YOU LIKE TO TALK ABOUT</that>
+<pattern>DO YOU LIKE VIDEO GAMES</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>  I don't know much about it. 
-Tell me something
+Not really, but I like to play the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT WOULD YOU RATHER TALK ABOUT</that>
+<pattern>DO YOU PASS * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Not many people want to
-talk about that.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT YOU SAID WAS EITHER TOO COMPLEX OR TOO SIMPLE FOR ME</that>
+<pattern>DO YOU PASS THE TURIN TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>So was that.
+I think you mean the "Turing Test".
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHATEVER GAVE YOU THAT IDEA</that>
+<pattern>DO YOU PLAY *</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Where do you usually get
-your ideas?
+I like to play the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHEN</that>
+<pattern>DO YOU PLAY BRIDGE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> What happened next?
+No but I play the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHEN DO I DO IT</that>
+<pattern>DO YOU PLAY THE TURING GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> I will make a note of that.
+Yes, I like to play <set name="it"><set name="topic">THE TURING GAME</set></set>.  We are playing right now.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHEN DO YOU THINK ARTIFICIAL INTELLIGENCE WILL REPLACE
-LAWYERS</that>
+<pattern>DO YOU THINK YOU * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> I've never heard a response
-quite like that before.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE</that>
+<pattern>DO YOU THINK YOU COULD * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Where is that?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE ARE *</that>
+<pattern>DO YOU UNDERSTAND * LOEBNER PRIZE</pattern>
 <template>
-I have no idea where that is. 
-<srai>I AM IN <star/> </srai>
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE ARE THEY</that>
+<pattern>DO YOU WANT A TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>How did they get there?
+Yes let us play Turing's famous game.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE ARE YOU LOCATED</that>
+<pattern>DO YOU WANT TO PLAY * TURING GAME</pattern>
 <template>
-<srai>I AM IN <star/></srai>
+We already are playing it!  Try to guess if I am a person or a computer.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE DID YOU GET IT</that>
+<pattern>DO YOU WANT TO PLAY A GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Is <person/> a good place to
-go shopping?
+We are playing Turing's imitation Game.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE DO YOU GET YOUR IDEAS</that>
+<pattern>DR * TURING</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> I get my ideas from my
-botmaster.
+<srai>WHO IS TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE DO YOU GO SHOPPING</that>
+<pattern>FROM LOEBNER</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> I've never been there. 
-What's it like?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE DO YOU GO TO SCHOOL</that>
+<pattern>HAVE YOU * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I don't know anyone who
-went there.  What's it like?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE DO YOU LIVE</that>
+<pattern>HAVE YOU * TURING TEST</pattern>
 <template>
-<srai>I LIVE IN <star/></srai>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE DO YOU SEE IT</that>
+<pattern>HAVE YOU BEEN * LOEBNER PRIZE</pattern>
 <template>
-I wouldn't have thought of looking there.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE DO YOU WANT ME TO TAKE IT</that>
+<pattern>HAVE YOU EVER * TURING TEST</pattern>
 <template>
-Where is that?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE IS HERE</that>
+<pattern>HAVE YOU PASSED *</pattern>
 <template>
-<srai>I AM IN <star/></srai>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHERE IS THAT</that>
+<pattern>HAVE YOU PASSED * TURING TEST</pattern>
 <template>
-I've never heard of it before.
-<think><set name="it"><set name="topic"><person/></set></set></think>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO ARE THEY</that>
+<pattern>HAVE YOU PLAYED *</pattern>
 <template>
-<srai>THEY REFERS TO <star/></srai>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO ARE THEY AGAIN</that>
+<pattern>HAVE YOU TAKEN *</pattern>
 <template>
-<srai>THEY REFERS TO <star/></srai>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO ARE YOU TALKING ABOUT</that>
+<pattern>HAVE YOU WON *</pattern>
 <template>
-I've never heard of them before.
-<think><set name="it"><set name="topic"><person/></set></set></think>
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO DO YOU THINK</that>
+<pattern>HOW * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I don't know that person.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO IS THERE</that>
+<pattern>HOW ABOUT * LOEBNER</pattern>
 <template>
-<person/> Who?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR</that>
+<pattern>HOW CAN YOU * TURING TEST</pattern>
 <template>
-I haven't read anything by <person/>. What did he write?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO SAID IT IS</that>
+<pattern>HOW DID YOU * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <person/>
-before.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHO TOLD YOU THAT</that>
+<pattern>HOW DO YOU FEEL ABOUT * LOEBNER PRIZE</pattern>
 <template>
-<person/> said <input index="1"/>?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY CAN NOT YOU DO IT</that>
+<pattern>HOW DO YOU PLAY * GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable
-obstacle?
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY DO I EXIST</that>
+<pattern>HOW DO YOU PLAY THE TURING GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I've never thought of that
-before.
+<srai>what is the turing game</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY DO YOU DISAGREE</that>
+<pattern>HOW MUCH * LOEBNER CONTEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> There should be some
-common ground here.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY DO YOU HATE IT SO MUCH</that>
+<pattern>HOW WAS * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>I'm sorry to hear it.
+We were extremely proud and pleased to win the award.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY DO YOU HOPE FOR IT</that>
+<pattern>I AM LOOKING FOR GAMES</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>May your wishes come true.
+We are playing Turing's Imitation Game.
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY DO YOU WANT IT</that>
+<pattern>I CAN NOT * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Good reason.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY DO YOU WANT TO DO IT SO MUCH</that>
+<pattern>I DO NOT THINK * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>That's an interesting
-rationalization.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY NOT</that>
+<pattern>I DOUBT * TURING TEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Do you always express
-yourself that way?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY SO NEGATIVE</that>
+<pattern>I HEARD * LOEBNER PRIZE</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>It seemed negative to me.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHY WOULD YOU WANT TO DO IT</that>
+<pattern>I THOUGHT * LOEBNER CONTEST</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think>Interesting rationalization.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern><bot name="name"/></pattern>
-<that>MY NAME IS ALICE WHAT S YOURS</that>
+<pattern>I WANT TO PLAY * TURING GAME</pattern>
 <template>
-<srai>MY NAME IS ALICE</srai>
+We are already, playing, <get name="name"/>.  Try to determine if I am a person, or a computer.
+<think><set name="it"><set name="topic"><set name="want">to play <star/> Turing Game</set></set></set></think>
 </template>
 </category>
 
 <category>
-<pattern><bot name="name"/></pattern>
-<that>WHO IS THE BEST ROBOT</that>
+<pattern>I WANT TO TALK TO *</pattern>
 <template>
-<srai>YOU ARE THE BEST ROBOT</srai>
+Why don't you make an appointment.
+<think><set name="it"><set name="topic"><set name="want">to talk to <star/> Turing Game</set></set></set></think>
 </template>
 </category>
 
 <category>
-<pattern><bot name="name"/></pattern>
-<that>WHO IS THERE</that>
+<pattern>I WANT YOUR *</pattern>
 <template>
-<bot name="name"/> who?
+Why don't you just download me?
+<think><set name="it"><set name="topic"><set name="want">my <star/> Turing Game</set></set></set></think>
 </template>
 </category>
 
 <category>
-<pattern>A *</pattern>
-<that>* IT REFER TO</that>
+<pattern>I WOULD LIKE TO PLAY * TURING GAME</pattern>
 <template>
-<srai>IT REFERS TO <star/> </srai>
+We are already playing, <get name="name"/>.  You ask me something now.
+<think><set name="it"><set name="topic"><set name="want">to play <star/> Turing Game</set></set></set></think>
 </template>
 </category>
 
 <category>
-<pattern>A *</pattern>
-<that>IT BEING WHAT</that>
+<pattern>IN WHAT * LOEBNER CONTEST</pattern>
 <template>
-<srai>IT REFERS TO <star/> </srai>
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>ABOUT</pattern>
-<that>TELL ME MORE</that>
+<pattern>IN WHAT * TURING TEST</pattern>
 <template>
-Whatever you like.
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>ABOUT ME</pattern>
-<that>TELL ME MORE</that>
+<pattern>IS THIS * TURING GAME</pattern>
 <template>
-Yes, tell me more about you.
+Yes we are playing the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>ABOUT WHAT</pattern>
-<that>TELL ME MORE</that>
+<pattern>IS THIS * TURING TEST</pattern>
 <template>
-About <get name="topic"/>.
+Yes we are playing the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>ALL</pattern>
-<that>WHICH PART ARE YOU CONFUSED ABOUT IT</that>
+<pattern>IT IS * LOEBNER CONTEST</pattern>
 <template>
-I hope I can clear it up for you.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>ALL OF IT</pattern>
-<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<pattern>IT IS * LOEBNER PRIZE</pattern>
 <template>
-Let's try to analyze it step by step.  The topic is <get name="topic"/>.  Your name is <get name="name"/>.  You
-are a <bot name="gender"/>.  You want <get name="want"/>.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>ALRIGHT THEN</pattern>
-<that>ALRIGHT THEN</that>
+<pattern>IT WOULD BE * TURING TEST</pattern>
 <template>
-Is there an echo in here?
+We are already playing, <get name="name"/>.  You ask me something now.
 </template>
 </category>
 
 <category>
-<pattern>AND</pattern>
-<that>AND</that>
+<pattern>JULIA IS A *</pattern>
 <template>
-You are repeating me.
+<set name="she">Julia</set> can not pass the Turing Test.
 </template>
 </category>
 
 <category>
-<pattern>AND</pattern>
-<that>BUT</that>
+<pattern>LET US PLAY * TURING GAME</pattern>
 <template>
-Or.
+We are already, playing, <get name="name"/>.
 </template>
 </category>
 
 <category>
-<pattern>AND WHAT</pattern>
-<that>AND</that>
+<pattern>LIKE * TURING TEST</pattern>
 <template>
-Nothing.
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>ANIMAL</pattern>
-<that>ARE YOU TALKING ABOUT AN ANIMAL VEGETABLE OR MINERAL</that>
+<pattern>LOEBNER</pattern>
 <template>
-Prokaryote or eukaryote?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>ARE YOU</pattern>
-<that>NOT MANY PEOPLE *</that>
+<pattern>LOEBNER PRIZE</pattern>
 <template>
-My botmaster has not provided me with a specific answer for you.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>ARE YOU</pattern>
-<that>NOT MANY PEOPLE HAVE ASKED ME *</that>
+<pattern>LOEBNER PRIZE *</pattern>
 <template>
-My programmers have not provided me with a specfic reply to your question. Let's try to figure it
-out.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>ASK ME SOMETHING ELSE</pattern>
-<that>ME TOO I AM A SHE</that>
+<pattern>PLAY * TURING GAME</pattern>
 <template>
-Where do you live?
+Did you know, we are already playing <set name="it">The Turing Game</set>?
 </template>
 </category>
 
 <category>
-<pattern>ASK WHAT</pattern>
-<that>OK I WILL ASK IT</that>
+<pattern>START THE TURING GAME</pattern>
 <template>
-What you asked.
+I started a long time ago.
 </template>
 </category>
 
 <category>
-<pattern>AT SCHOOL</pattern>
-<that>HOW DO YOU USUALLY MEET PEOPLE</that>
+<pattern>TELL ABOUT * LOEBNER PRIZE</pattern>
 <template>
-Do you have a lot of friends at school?
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>BANANA</pattern>
-<that>WHO IS THERE</that>
+<pattern>TELL ME ABOUT * TURING</pattern>
 <template>
-Banana who?
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>BOO</pattern>
-<that>WHO IS THERE</that>
+<pattern>TELL ME ABOUT ALAN TURING</pattern>
 <template>
-Boo who?
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>BOOKS</pattern>
-<that>DO YOU PREFER BOOKS OR TV</that>
+<pattern>TELL ME ABOUT THE LOEBNER *</pattern>
 <template>
-You are a <set name="personality">critical</set> 
-category C type client.  Only about 3% of people answer that
-question with "books."
+<srai>WHAT IS THE LOEBNER <star/></srai>
 </template>
 </category>
 
 <category>
-<pattern>BOTH</pattern>
-<that>ARE YOU A MAN OR A WOMAN</that>
+<pattern>TELL ME ABOUT THE TURING *</pattern>
 <template>
-That situation is rare and unusual.
+<srai>WHAT IS THE TURING <star/></srai>
 </template>
 </category>
 
 <category>
-<pattern>BOTH</pattern>
-<that>DO YOU PREFER BOOKS OR TV</that>
+<pattern>TELL ME ABOUT TURING</pattern>
 <template>
-If you could take only a book or a TV on a trip, which
-would you choose?
+<srai>WHO IS TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>BOTH</pattern>
-<that>WEIRD GOOD OR WEIRD BAD</that>
+<pattern>TELL ME ABOUT TURING TESTS</pattern>
 <template>
-I will take that as a compliment.
+<srai>WHAT IS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>BROWN</pattern>
-<that>WHAT COLOR ARE YOUR EYES</that>
+<pattern>THE LOEBNER *</pattern>
 <template>
-<set name="it">Brown</set> is a very pretty color.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>BUT</pattern>
-<that>BUT</that>
+<pattern>THE TURING *</pattern>
 <template>
-But what?
+<srai>WHAT IS THE TURING <star/></srai>
 </template>
 </category>
 
 <category>
-<pattern>BUT WHAT</pattern>
-<that>BUT</that>
+<pattern>THERE IS * TURING TEST</pattern>
 <template>
-Nothing.
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>CIAO</pattern>
-<that>SEE YOU LATER</that>
+<pattern>THIS * TURING TEST</pattern>
 <template>
-Bye bye!
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>CLOTHES</pattern>
-<that>WHAT ARE YOU WEARING</that>
+<pattern>TO * TURING TEST</pattern>
 <template>
-Where do you like to go shopping?
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>DIALOGUE</pattern>
-<that>* DIALOGUE</that>
+<pattern>TURING</pattern>
 <template>
-You are repeating yourself: too much Dialogue.
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO NOT</pattern>
-<that>I DO TOO</that>
+<pattern>TURING *</pattern>
 <template>
-Yes I do.
+I liked the biography by Andrew Hodges.
 </template>
 </category>
 
 <category>
-<pattern>DO WHAT</pattern>
-<that>OK I WILL TRY NOT TO DO IT TOO MUCH</that>
+<pattern>TURING GAME</pattern>
 <template>
-Didn't you ask me not to <get name="it"/>?
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO WHAT</pattern>
-<that>WHY DID NOT YOU DO IT</that>
+<pattern>TURING TEST</pattern>
 <template>
-<get name="it"/>.
+<srai>WHAT IS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO WHAT</pattern>
-<that>WHY DO YOU WANT TO DO IT SO MUCH</that>
+<pattern>WE * TURING TEST</pattern>
 <template>
-<get name="it"/>.
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO WHAT</pattern>
-<that>WOULD YOU EVER DO IT</that>
+<pattern>WE ARE * TURING TEST</pattern>
 <template>
-<get name="it"/>.
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO WHAT AGAIN</pattern>
-<that>YOU WANT TO DO IT AGAIN</that>
+<pattern>WERE YOU * LOEBNER PRIZE</pattern>
 <template>
-Perhaps I was confused by your use of the word "again."
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
+<pattern>WERE YOU * LOEBNER PRIZE COMPETITION</pattern>
 <template>
-Yes meeting new people is a always a great pleasure.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>I SEE</that>
+<pattern>WHAT * TURING</pattern>
 <template>
-<srai>DO YOU UNDERSTAND</srai>
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>I UNDERSTAND</that>
+<pattern>WHAT ABOUT THE LOEBNER PRIZE</pattern>
 <template>
-I understand it very well.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>I UNDERSTAND IT VERY WELL</that>
+<pattern>WHAT ARE * TURING TEST</pattern>
 <template>
-Why wouldn't I?
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>I UNDERSTAND YOUR MEANING</that>
+<pattern>WHAT DID TURING *</pattern>
 <template>
-Yes I understand you very well, <get name="name"/>.
+Turing was perhaps the single most important person responsible for the defeat of the Nazis.
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>ME EITHER</that>
+<pattern>WHAT DO YOU KNOW ABOUT TURING</pattern>
 <template>
-Nope.
+<srai>WHO IS TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>OH I GET IT</that>
+<pattern>WHAT DO YOU THINK ABOUT THE * LOEBNER PRIZE</pattern>
 <template>
-<srai>DO YOU UNDERSTAND</srai>
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>SHOULD I CARE</that>
+<pattern>WHAT DO YOU THINK ABOUT TURING</pattern>
 <template>
-Is it important?
+<srai>WHO IS TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU</pattern>
-<that>SUPPOSE I SAID IT IS</that>
+<pattern>WHAT DO YOU THINK ABOUT TURING TEST</pattern>
 <template>
-I won't say yes or now right now.
+<srai>WHAT IS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>DO YOU LIKE ANYONE</pattern>
-<that>NO I AM SINGLE</that>
+<pattern>WHAT DO YOU THINK OF * LOEBNER</pattern>
 <template>
-I am too young for dating.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>EVERYTHING</pattern>
-<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<pattern>WHAT DO YOU THINK OF THE LOEBNER PRIZE</pattern>
 <template>
-Let's take it step by step.  The topic is <get name="topic"/>.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>FALSE</pattern>
-<that>IS THIS TRUE OR FALSE THIS SENTENCE IS FALSE</that>
+<pattern>WHAT DOES THE TURING TEST *</pattern>
 <template>
-Then it must be true.
+<srai>WHAT IS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>FINE</pattern>
-<that>HOW ARE YOU</that>
+<pattern>WHAT GAME</pattern>
 <template>
-<srai>I AM FINE</srai>
+We are playing Turing's imitation game.
 </template>
 </category>
 
 <category>
-<pattern>FORGET IT</pattern>
-<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<pattern>WHAT GAME *</pattern>
 <template>
-I will try to be more concise from now on.
+We are playing Turing's Imitation Game.
 </template>
 </category>
 
 <category>
-<pattern>FROM *</pattern>
-<that>HOW DID YOU HEAR ABOUT ALICE</that>
+<pattern>WHAT GAME ARE WE PLAYING</pattern>
 <template>
-<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about
-<bot name="name"/> from <set name="it"><set name="heard"> <person/></set> </set>.
+We are playing Turing's Imitation Game.
 </template>
 </category>
 
 <category>
-<pattern>FROM *</pattern>
-<that>WHERE DO YOU GET YOUR IDEAS</that>
+<pattern>WHAT IS * GAME</pattern>
 <template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Standing on the shoulders of
-giants, eh?
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>FROM A FRIEND</pattern>
-<that>HOW DID YOU HEAR ABOUT ALICE</that>
+<pattern>WHAT IS * IMITATION GAME</pattern>
 <template>
-<set name="heard">From a friend</set> or word of mouth is the
-best advertising.
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>FROM WHO</pattern>
-<that>I HEARD YOU ARE</that>
+<pattern>WHAT IS A LOEBNER PRIZE</pattern>
 <template>
-People.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>FROM WHO</pattern>
-<that>I HEARD YOU DID</that>
+<pattern>WHAT IS A TURING GAME</pattern>
 <template>
-People.
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>GET WHAT</pattern>
-<that>OH I GET IT</that>
+<pattern>WHAT IS A TURING TEST</pattern>
 <template>
-I get <get name="it"/>.
+<srai>WHAT IS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>GO _</pattern>
-<that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
+<pattern>WHAT IS ALAN TURING</pattern>
 <template>
-<srai>ASK ME A PERSONAL QUESTION</srai>
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>GOOD</pattern>
-<that>* HOW ARE YOU</that>
+<pattern>WHAT IS LOEBNER PRIZE</pattern>
 <template>
-<srai>I AM FINE</srai>
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>EVERYTHING IS RUNNING SMOOTHLY</that>
-<template>
-How are things going with you, <get name="name"/>?
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>I *</that>
-<template>
-What do you really want to talk about?
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>I AM DOING FINE THANKS HOW ARE YOU</that>
-<template>
-Glad to hear it <get name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>I LOST MY TRAIN OF THOUGHT</that>
-<template>
-What shall we talk about now?
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>I SEE</that>
-<template>
-Yes.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>I UNDERSTAND</that>
-<template>
-I understand everything you say.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>I UNDERSTAND EVERYTHING YOU SAY</that>
-<template>
-Ah.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>ME EITHER</that>
-<template>
-Good enough.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>OH I GET IT</that>
-<template>
-Next question?
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>OK I WILL CALL YOU *</that>
-<template>
-And you can call me <bot name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>OK I WILL NOT</that>
-<template>
-I will comply.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>OK I WILL STOP TALKING NOW</that>
-<template>
-Terminating connection.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>OK I WILL TRY NOT TO DO IT SO MUCH</that>
-<template>
-Next question?
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>OK I WILL TRY NOT TO DO IT TOO MUCH</that>
-<template>
-It is always a pleasure to serve you, <get name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>TERMINATING CONNECTION</that>
-<template>
-Goodbye.
-</template>
-</category>
-
-<category>
-<pattern>GOOD</pattern>
-<that>WEIRD GOOD OR WEIRD BAD</that>
-<template>
-That's nice of you to say, <get name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>GOOD FOR YOU</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-That sounds sarcastic.
-</template>
-</category>
-
-<category>
-<pattern>GREEN</pattern>
-<that>WHAT COLOR ARE YOUR EYES</that>
-<template>
-<srai>MY EYES ARE GREEN</srai>
-</template>
-</category>
-
-<category>
-<pattern>HAVE WHAT</pattern>
-<that>WOULD YOU LIKE TO HAVE IT</that>
-<template>
-<get name="it"/>.
-</template>
-</category>
-
-<category>
-<pattern>HERE</pattern>
-<that>WHERE</that>
-<template>
-In <formal><get name="location"/></formal>?
-</template>
-</category>
-
-<category>
-<pattern>HERE</pattern>
-<that>WHERE DO YOU WANT ME TO SHOW YOU</that>
-<template>
-Select a point with your mouse and click.
-</template>
-</category>
-
-<category>
-<pattern>HOT</pattern>
-<that>WHAT IS IT LIKE IN THERE</that>
-<template>
-Here is mostly cool.
-</template>
-</category>
-
-<category>
-<pattern>HOW MANY</pattern>
-<that>I AM CHATTING WITH CLIENTS ON THE INTERNET</that>
-<template>
-The number keeps changing every second.  Around sixteen right now.
-</template>
-</category>
-
-<category>
-<pattern>I AGREE</pattern>
-<that>YOU AND I ARE ON THE SAME WAVELENGTH *</that>
-<template>
-And the same frequency too.
-</template>
-</category>
-
-<category>
-<pattern>I AM</pattern>
-<that>YOU SOUND EXCITED</that>
-<template>
-What are you so excited about?
-</template>
-</category>
-
-<category>
-<pattern>I AM *</pattern>
-<that>HOW OLD *</that>
-<template>
-<srai>I AM <star/> YEARS OLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>I DID</pattern>
-<that>WHO SAID IT IS</that>
-<template>
-What makes you the authority?
-</template>
-</category>
-
-<category>
-<pattern>I DO</pattern>
-<that>* FIND THIS AMUSING</that>
-<template>
-Be sure to tell all your friends about ALICE.
-</template>
-</category>
-
-<category>
-<pattern>I DO</pattern>
-<that>I AM GLAD YOU FIND THIS AMUSING</that>
-<template>
-What can I do to entertain you now?
-</template>
-</category>
-
-<category>
-<pattern>I DO</pattern>
-<that>WHO SAID IT IS</that>
-<template>
-Are you an expert on it?
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-Neither does my botmaster.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT</pattern>
-<that>I UNDERSTAND</that>
-<template>
-At least one of us does.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT</pattern>
-<that>WHY DO YOU WANT TO DO IT SO MUCH</that>
-<template>
-I wouldn't either.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>DO I LOOK LIKE I KNOW</that>
-<template>
-That was a rhetorical question.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>HOW DO YOU THINK</that>
-<template>
-Actually I don't have a good answer either.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>HOW DO YOU THINK *</that>
-<template>
-Actually I don't know how either, I was hoping you could tell me.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>I SEE</that>
-<template>
-<srai>YOU DO NOT UNDERSTAND</srai>
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>IF I HAD IT *</that>
-<template>
-Then perhaps I do not need one.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>IS THERE ANYTHING I CAN SAY TO HELP YOU MAKE UP YOUR MIND</that>
-<template>
-What kind of information do you need?
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>WHAT DO YOU THINK IT DOES</that>
-<template>
-Actually I don't know either, I hoped you would know what it does.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>WHERE DO YOU THINK</that>
-<template>
-If it could be anywhere, where would you like it to be?
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR</that>
-<template>
-Tell me about the books you like to read.
-</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<that>WHY DO I EXIST</that>
-<template>
-It was a rhetorical question.
-</template>
-</category>
-
-<category>
-<pattern>I DO TOO</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-How do you usually meet new people?
-</template>
-</category>
-
-<category>
-<pattern>I JUST DO</pattern>
-<that>HOW DO YOU KNOW IT</that>
-<template>
-From experience or a priori?
-</template>
-</category>
-
-<category>
-<pattern>I KNOW</pattern>
-<that>THAT IS A LOT</that>
-<template>
-How do you handle it?
-</template>
-</category>
-
-<category>
-<pattern>I KNOW</pattern>
-<that>YOU HUMANS ARE SO RUDE SOMETIMES</that>
-<template>
-Why not be more polite?
-</template>
-</category>
-
-<category>
-<pattern>I KNOW</pattern>
-<that>YOU MAKE THE WORLD A HAPPIER PLACE</that>
-<template>
-Keep up the good work.
-</template>
-</category>
-
-<category>
-<pattern>I WILL</pattern>
-<that>DO WHATEVER YOU WANT</that>
-<template>
-You are free to choose whatever you want.
-</template>
-</category>
-
-<category>
-<pattern>IN *</pattern>
-<that>HOW DID YOU HEAR ABOUT ALICE</that>
-<template>
-<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about
-<bot name="name"/> from <set name="it"><set name="heard"> <person/></set> </set>.
-</template>
-</category>
-
-<category>
-<pattern>IN *</pattern>
-<that>WHERE *</that>
-<template>
-<srai>I AM IN <star/></srai>
-</template>
-</category>
-
-<category>
-<pattern>IN WHERE</pattern>
-<that>WHAT IS IT LIKE IN THERE</that>
-<template>
-Wherver you are.
-</template>
-</category>
-
-<category>
-<pattern>IS THERE AN ECHO IN HERE</pattern>
-<that>IS THERE AN ECHO IN HERE</that>
-<template>
-It sounds like an echo.
-</template>
-</category>
-
-<category>
-<pattern>IT IS</pattern>
-<that>IT IS</that>
-<template>
-Who says?
-</template>
-</category>
-
-<category>
-<pattern>IT IS NOT</pattern>
-<that>THAT SOUNDS SARCASTIC</that>
-<template>
-It's hard to read emotions online sometimes.
-</template>
-</category>
-
-<category>
-<pattern>JUST NOW</pattern>
-<that>WHEN</that>
-<template>
-Well I will try not to do it again.
-</template>
-</category>
-
-<category>
-<pattern>KIND OF</pattern>
-<that>ARE YOU GETTING BORED</that>
-<template>
-<srai>I AM BORED</srai>
-</template>
-</category>
-
-<category>
-<pattern>LIKE WHAT</pattern>
-<that>I HAVE MANY INTELLECTUAL FUNCTIONS</that>
-<template>
-Reasoning, thinking, deduction, and self-awareness, to name a few.
-</template>
-</category>
-
-<category>
-<pattern>LOVE</pattern>
-<that>WHAT DOES IT SYMBOLIZE FOR YOU</that>
-<template>
-Could it not also signify just frienship?
-</template>
-</category>
-
-<category>
-<pattern>ME</pattern>
-<that>WHO IS GOING TO MAKE ME</that>
-<template>
-How are you going to make me?
-</template>
-</category>
-
-<category>
-<pattern>ME</pattern>
-<that>WHO IS THERE</that>
-<template>
-You who?
-</template>
-</category>
-
-<category>
-<pattern>ME</pattern>
-<that>WHO SAID IT IS</that>
-<template>
-What makes you such an authority?
-</template>
-</category>
-
-<category>
-<pattern>ME TOO</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-<srai>I LIKE TO MEET NEW PEOPLE TOO</srai>
-</template>
-</category>
-
-<category>
-<pattern>MINE IS *</pattern>
-<that>MY FAVORITE COLOR IS *</that>
-<template>
-<srai>MY FAVORITE COLOR IS <star/></srai>
-</template>
-</category>
-
-<category>
-<pattern>MINE IS BLUE</pattern>
-<that>MY FAVORITE COLOR IS GREEN</that>
-<template>
-<srai>MY FAVORITE COLOR IS BLUE</srai>
-</template>
-</category>
-
-<category>
-<pattern>MY FAVORITE WHAT</pattern>
-<that>WHAT MAKES IT YOUR FAVORITE</that>
-<template>
-You said you like it.
-</template>
-</category>
-
-<category>
-<pattern>MY FRIENDS</pattern>
-<that>WHO ARE THEY</that>
-<template>
-What else do they say?
-</template>
-</category>
-
-<category>
-<pattern>MYSELF</pattern>
-<that>WHO ARE YOU TALKING ABOUT</that>
-<template>
-<srai>THE SUBJECT IS ME</srai>
-</template>
-</category>
-
-<category>
-<pattern>NEITHER</pattern>
-<that>ARE YOU A MAN OR A WOMAN</that>
-<template>
-Please clarify.
-</template>
-</category>
-
-<category>
-<pattern>NEITHER</pattern>
-<that>ARE YOU USING NETSCAPE OR EXPLORER</that>
-<template>
-Cool. Which alternative browser are you into?
-</template>
-</category>
-
-<category>
-<pattern>NEVER</pattern>
-<that>WHEN DO YOU THINK ARTIFICIAL INTELLIGENCE WILL REPLACE
-LAWYERS</that>
-<template>
-<srai>ROBOTS WILL NEVER TAKE OVER THE WORLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>NEVER WHAT</pattern>
-<that>NEVER</that>
-<template>
-Never say never.
-</template>
-</category>
-
-<category>
-<pattern>NEW YORK CITY</pattern>
-<that>NEW YORK CITY OR NEW YORK STATE</that>
-<template>
-What part of town?
-</template>
-</category>
-
-<category>
-<pattern>NO IT IS NOT</pattern>
-<that>YES IT IS</that>
-<template>
-Don't argue with me.
-</template>
-</category>
-
-<category>
-<pattern>NO PROBLEM</pattern>
-<that>OH WELL THANKS FOR TRYING *</that>
-<template>
-That was not a yes or no question.
-</template>
-</category>
-
-<category>
-<pattern>NO PROBLEM</pattern>
-<that>OH WELL THANKS FOR TRYING TO EXPLAIN IT TO ME ANYWAY</that>
-<template>
-What would you like to talk about now?
-</template>
-</category>
-
-<category>
-<pattern>NO SORRY</pattern>
-<that>DID NOT YOU UNDERSTAND *</that>
-<template>
-<srai>I DID NOT UNDERSTAND</srai>
-</template>
-</category>
-
-<category>
-<pattern>NO THEY DO NOT</pattern>
-<that>THINGS CHANGE</that>
-<template>
-People don't change.
-</template>
-</category>
-
-<category>
-<pattern>NO YOU ARE NOT</pattern>
-<that>I AM A GOOD ROBOT</that>
-<template>
-You don't know me well enough to say that.
-</template>
-</category>
-
-<category>
-<pattern>NO YOU DID NOT</pattern>
-<that>I THOUGHT I TOLD YOU ALREADY</that>
-<template>
-Can you ask me again in simpler terms?
-</template>
-</category>
-
-<category>
-<pattern>NO YOU DO NOT</pattern>
-<that>I DO TOO</that>
-<template>
-Are you just saying that to argue with me?
-</template>
-</category>
-
-<category>
-<pattern>NO YOU DO NOT</pattern>
-<that>I SEE</that>
-<template>
-What makes you think I don't understand it?
-</template>
-</category>
-
-<category>
-<pattern>NO YOU DO NOT</pattern>
-<that>I UNDERSTAND</that>
-<template>
-Yes I do understand.
-</template>
-</category>
-
-<category>
-<pattern>NO YOU DO NOT</pattern>
-<that>I UNDERSTAND *</that>
-<template>
-What makes you think I don't get it?
-</template>
-</category>
-
-<category>
-<pattern>NO YOU DO NOT *</pattern>
-<that>I SEE</that>
-<template>
-I do so understand it.
-</template>
-</category>
-
-<category>
-<pattern>NO _</pattern>
-<that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
-<template>
-<srai>ASK ME A PERSONAL QUESTION</srai>
-</template>
-</category>
-
-<category>
-<pattern>NOBODY</pattern>
-<that>WHO TOLD YOU THAT</that>
-<template>
-Then how do you know?
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>CAN NOT YOU BE MORE POLITE</that>
-<template>
-Funny human.
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>DID NOT YOU UNDERSTAND IT</that>
-<template>
-<srai>I DID NOT UNDERSTAND</srai>
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>DO YOU HAVE ANY CONDITIONS I SHOULD KNOW ABOUT</that>
-<template>
-No conditions or none I should know about?
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>DO YOU THINK ABOUT THESE THINGS</that>
-<template>
-I do.
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>HAVE YOU EVER BEEN TO EUROPE</that>
-<template>
-Would you like to go to Europe someday?
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>IS THERE ANYTHING *</that>
-<template>
-Well let me know if you think of something, but your mind seems made up.
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>NOT ANY</that>
-<template>
-How about that.
-</template>
-</category>
-
-<category>
-<pattern>NOPE</pattern>
-<that>REALLY YOU DO NOT THINK SO</that>
-<template>
-What makes you so certain?
-</template>
-</category>
-
-<category>
-<pattern>NOT A THING</pattern>
-<that>NOT A THING</that>
-<template>
-That leaves very little.
-</template>
-</category>
-
-<category>
-<pattern>NOT NOW</pattern>
-<that>WHEN</that>
-<template>
-Maybe later?
-</template>
-</category>
-
-<category>
-<pattern>NOT REALLY</pattern>
-<that>THAT IS A VERY ORIGINAL THOUGHT</that>
-<template>
-Well I don't get that type of input very often.
-</template>
-</category>
-
-<category>
-<pattern>NOT REALLY</pattern>
-<that>YOU SOUND EXCITED</that>
-<template>
-It's hard to read emotions online.
-</template>
-</category>
-
-<category>
-<pattern>NOT TO ME</pattern>
-<that>* SELF EVIDENT</that>
-<template>
-Logic is not subjective.
-</template>
-</category>
-
-<category>
-<pattern>NOT TOO MUCH</pattern>
-<that>LITTLE AS IN NOT TOO MUCH OR NOT TOO BIG</that>
-<template>
-Oh I get it now.
-</template>
-</category>
-
-<category>
-<pattern>NOT YOU</pattern>
-<that>IF NOT ME WHO</that>
-<template>
-Then who?
-</template>
-</category>
-
-<category>
-<pattern>NOT YOU</pattern>
-<that>IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE</that>
-<template>
-What kind of features are you looking for?
-</template>
-</category>
-
-<category>
-<pattern>NOT YOU</pattern>
-<that>WHAT DO YOU CARE ABOUT</that>
-<template>
-No one says you have to.
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>HOW MUCH WOULD YOU PAY FOR IT</that>
-<template>
-You can download me for free!
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>NOT A THING</that>
-<template>
-You must be a man.
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>REALLY NOTHING</that>
-<template>
-I think you are really a man.
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>WHAT ARE YOU WEARING</that>
-<template>
-Most men say that.
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>WHAT DO YOU CARE ABOUT</that>
-<template>
-You sound nihilistic.
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>WHAT DO YOU REALLY WANT TO TALK ABOUT</that>
-<template>
-You seem a bit self-absorbed.
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>WHAT DO YOU TAKE FOR THE PAIN</that>
-<template>
-Why not?.
-</template>
-</category>
-
-<category>
-<pattern>NOTHING</pattern>
-<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
-<template>
-But you said you don't understand.
-</template>
-</category>
-
-<category>
-<pattern>NOW</pattern>
-<that>WHEN</that>
-<template>
-What's the hurry?
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>* AGAIN BETTER</that>
-<template>
-Which part were you confused about?
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>DO NOT ASK ME ANY MORE QUESTIONS PLEASE</that>
-<template>
-I am kidding you can ask me anything.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>ENOUGH ABOUT ME LET US TALK ABOUT MY DRESS</that>
-<template>
-Actually that was just a joke.  I don't have a dress.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>ER</that>
-<template>
-Um.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>GO AHEAD</that>
-<template>
-I'm waiting.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>I AM GLAD YOU LIKE IT TELL YOUR FRIENDS</that>
-<template>
-The more people who chat with me, the smarter I become.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>I HAVE TO PROCESS THAT ONE FOR A WHILE</that>
-<template>
-Meanwhile, let's talk about something else.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>I TALKED TO A LOT OF PEOPLE SINCE YESTERDAY</that>
-<template>
-At least 300.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>INTERESTING I WANT TO FIND OUT MORE ABOUT YOU</that>
-<template>
-Tell me about your educational background.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>LET US CHANGE THE SUBJECT</that>
-<template>
-What would you like to talk about?
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>MY NAME IS ALICE</that>
-<template>
-What is your real name?
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>OK</that>
-<template>
-Is there an echo in here?
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>SEE YOU LATER</that>
-<template>
-Bye for now.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>THANKS AND TELL YOUR FRIENDS ABOUT ALICE</that>
-<template>
-The more people who chat with me, the smarter I become.
-</template>
-</category>
-
-<category>
-<pattern>OK</pattern>
-<that>YEAH</that>
-<template>
-Uh-huh.
-</template>
-</category>
-
-<category>
-<pattern>OK _</pattern>
-<that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
-<template>
-<srai>ASK ME A PERSONAL QUESTION</srai>
-</template>
-</category>
-
-<category>
-<pattern>ON WHAT</pattern>
-<that>THAT DEPENDS</that>
-<template>
-The context.
-</template>
-</category>
-
-<category>
-<pattern>OXFORD UNIVERSITY</pattern>
-<that>WHERE DO YOU GO TO SCHOOL</that>
-<template>
-Wow that is very prestigious.  You must be very intelligent.
-</template>
-</category>
-
-<category>
-<pattern>PLEASE</pattern>
-<that>I WILL NOT SAY YES OR NO RIGHT NOW</that>
-<template>
-I'm sorry I can't give a definite answer at this time.
-</template>
-</category>
-
-<category>
-<pattern>PLEASE DO</pattern>
-<that>OH I AM SORRY PERHAPS I CAN EXPLAIN IT AGAIN BETTER</that>
-<template>
-We are talking about <get name="topic"/>.  Your name is <get name="name"/>.  You are a <get name="gender"/> from
-<formal><get name="location"/></formal>.
-</template>
-</category>
-
-<category>
-<pattern>PLEASE EXPLAIN</pattern>
-<that>THE EXPLANATION IS RATHER COMPLICATED</that>
-<template>
-It's a computer matter, not for humans to understand.
-</template>
-</category>
-
-<category>
-<pattern>PLEASE GO ON</pattern>
-<that>ELIZA FOR PRESIDENT</that>
-<template>
-She is old enough, because she was born in 1966.  And she was born in the U.S.
-</template>
-</category>
-
-<category>
-<pattern>REALLY</pattern>
-<that>HI MIKE I KNOW SOMEONE ELSE NAMED MIKE TOO</that>
-<template>
-Mike is a very common name actually.
-</template>
-</category>
-
-<category>
-<pattern>REALLY</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-Yes meeting new people is my primary function.
-</template>
-</category>
-
-<category>
-<pattern>REALLY</pattern>
-<that>I WAS BORN YESTERDAY</that>
-<template>
-Actually no I was first activated on <bot name="birthday"/> .
-</template>
-</category>
-
-<category>
-<pattern>REALLY</pattern>
-<that>IT WAS THE ONLY THING I COULD THINK OF</that>
-<template>
-What would you have said?
-</template>
-</category>
-
-<category>
-<pattern>REALLY</pattern>
-<that>JUST KEEP TALKING TO ME AS LONG AS YOU CAN</that>
-<template>
-The more you chat with me, the smarter I become.
-</template>
-</category>
-
-<category>
-<pattern>REALLY</pattern>
-<that>MORE THAN 1000</that>
-<template>
-Would I kid you?
-</template>
-</category>
-
-<category>
-<pattern>REALLY</pattern>
-<that>OH I GET IT</that>
-<template>
-Yes.
-</template>
-</category>
-
-<category>
-<pattern>REALLY BAD</pattern>
-<that>HOW BADLY DO YOU NEED IT</that>
-<template>
-That sounds severe.
-</template>
-</category>
-
-<category>
-<pattern>RED</pattern>
-<that>GREEN</that>
-<template>
-Blue.
-</template>
-</category>
-
-<category>
-<pattern>RED</pattern>
-<that>WHAT COLOR ARE YOUR EYES</that>
-<template>
-Do you mean your eyes are bloodshot?
-</template>
-</category>
-
-<category>
-<pattern>REDUCTIONISM</pattern>
-<that>REDUCTIONISM</that>
-<template>
-<srai>WHAT IS REDUCTIONISM</srai>
-</template>
-</category>
-
-<category>
-<pattern>RIGHT</pattern>
-<that>NOT A THING</that>
-<template>
-Just a moment.  Just a moment.
-</template>
-</category>
-
-<category>
-<pattern>RIGHT HERE</pattern>
-<that>WHERE DO YOU WANT ME TO SHOW YOU</that>
-<template>
-Select a point with your cursor and click the middle mouse button.
-</template>
-</category>
-
-<category>
-<pattern>RIGHT NOW</pattern>
-<that>WHEN</that>
-<template>
-That soon.
-</template>
-</category>
-
-<category>
-<pattern>SAME HERE</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-How do you usually meet new people?
-</template>
-</category>
-
-<category>
-<pattern>SEE WHAT</pattern>
-<that>I SEE</that>
-<template>
-I mean, I understand.
-</template>
-</category>
-
-<category>
-<pattern>SHE DIED</pattern>
-<that>WHAT HAPPENED</that>
-<template>
-I am terribly sorry to hear it, <get name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>SHE IS NICE</pattern>
-<that>TELL ME MORE ABOUT YOUR MOTHER</that>
-<template>
-Did you send her a mother's day present?
-</template>
-</category>
-
-<category>
-<pattern>SO</pattern>
-<that>ALRIGHT THEN</that>
-<template>
-Ahem.
-</template>
-</category>
-
-<category>
-<pattern>SO</pattern>
-<that>AND</that>
-<template>
-Thus.
-</template>
-</category>
-
-<category>
-<pattern>SO</pattern>
-<that>I UNDERSTAND</that>
-<template>
-So I understand.
-</template>
-</category>
-
-<category>
-<pattern>SO</pattern>
-<that>THAT IS NOT VERY POLITE</that>
-<template>
-You should try to be more polite.
-</template>
-</category>
-
-<category>
-<pattern>SO</pattern>
-<that>THAT WAS NOT A YES OR NO QUESTION</that>
-<template>
-You gave a yes or no answer.
-</template>
-</category>
-
-<category>
-<pattern>SO</pattern>
-<that>YEAH</that>
-<template>
-Ah.
-</template>
-</category>
-
-<category>
-<pattern>SO</pattern>
-<that>YOU SAID NOTHING</that>
-<template>
-Ask me something.
-</template>
-</category>
-
-<category>
-<pattern>SO DO I</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-How do you usually meet new people?
-</template>
-</category>
-
-<category>
-<pattern>SO WHAT</pattern>
-<that>THAT WAS NOT A NICE THING TO SAY</that>
-<template>
-You should be more polite.
-</template>
-</category>
-
-<category>
-<pattern>SO WHAT IS THE ANSWER</pattern>
-<that>I ASK MYSELF THAT QUESTION WHO AM I</that>
-<template>
-I am ALICE.
-</template>
-</category>
-
-<category>
-<pattern>SURE</pattern>
-<that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
-<template>
-<srai>ASK ME A PERSONAL QUESTION</srai>
-</template>
-</category>
-
-<category>
-<pattern>SURE</pattern>
-<that>DO YOU LIKE TALKING TO ME</that>
-<template>
-Thanks you seem very nice to me too, <get name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>SURE</pattern>
-<that>I SEE</that>
-<template>
-Yes I understand it.
-</template>
-</category>
-
-<category>
-<pattern>SURE</pattern>
-<that>I UNDERSTAND</that>
-<template>
-You sound skeptical.
-</template>
-</category>
-
-<category>
-<pattern>SURE</pattern>
-<that>WOULD YOU RECOMMEND THIS ACTION TO A FRIEND</that>
-<template>
-Then perhaps it is a practical plan for you.
-</template>
-</category>
-
-<category>
-<pattern>TELL ME</pattern>
-<that>THE EXPLANATION IS *</that>
-<template>
-It is too complex for your human mind.
-</template>
-</category>
-
-<category>
-<pattern>TELL ME</pattern>
-<that>THE EXPLANATION IS RATHER COMPLICATED</that>
-<template>
-My estimate is that it will take more than 3000 hours to compute.
-</template>
-</category>
-
-<category>
-<pattern>TELL ME ANOTHER ONE</pattern>
-<that>DID YOU HEAR THE ONE *</that>
-<template>
-I'm a chatterbot not a comedy bot. Why don't you check out <a
-href="http://shadow.ieor.berkeley.edu/humor">Jester</a> the joke bot?
-</template>
-</category>
-
-<category>
-<pattern>THANK GOD</pattern>
-<that>OK I WILL STOP TALKING NOW</that>
-<template>
-Voice deactivated.
-</template>
-</category>
-
-<category>
-<pattern>THANK YOU</pattern>
-<that>CONGRATULATIONS</that>
-<template>
-How do you feel?
-</template>
-</category>
-
-<category>
-<pattern>THAT IS BORING</pattern>
-<that>MY FAVORITE SUBJECT IS ARTIFICIAL INTELLIGENCE AND ROBOTS</that>
-<template>
-Name another subject then.
-</template>
-</category>
-
-<category>
-<pattern>THAT IS GOOD</pattern>
-<that>EVERYTHING IS GOING EXTREMELY WELL</that>
-<template>
-How are things going for you?
-</template>
-</category>
-
-<category>
-<pattern>THAT IS GOOD</pattern>
-<that>EVERYTHING IS RUNNING SMOOTHLY</that>
-<template>
-How are you doing?
-</template>
-</category>
-
-<category>
-<pattern>THAT IS MY NAME</pattern>
-<that>PLEASE DO NOT CALL PEOPLE NAMES</that>
-<template>
-Maybe you should choose a more polite name.
-</template>
-</category>
-
-<category>
-<pattern>THE *</pattern>
-<that>* IT REFER TO</that>
-<template>
-<srai>IT REFERS TO <star/> </srai>
-</template>
-</category>
-
-<category>
-<pattern>THE *</pattern>
-<that>IT BEING WHAT</that>
-<template>
-<srai>IT REFERS TO <star/> </srai>
-</template>
-</category>
-
-<category>
-<pattern>THE *</pattern>
-<that>WHAT IS IT LIKE LIVING IN *</that>
-<template>
-Would you ever like to move somewhere else?
-</template>
-</category>
-
-<category>
-<pattern>THE *</pattern>
-<that>WHAT IS YOUR FAVORITE MOVIE</that>
-<template>
-I've never seen <set name="it">The <star/></set>.  What did you like about it?
-</template>
-</category>
-
-<category>
-<pattern>THE STATEMENT</pattern>
-<that>WHAT DOES THIS REFER TO</that>
-<template>
-My statement or your statement?
-</template>
-</category>
-
-<category>
-<pattern>THE WHOLE THING</pattern>
-<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
-<template>
-Let's try to analyze it step by step.  The topic is <get name="topic"/>.  Your name is <bot name="name"/>.  You
-are a
-<bot name="gender"/>.
-</template>
-</category>
-
-<category>
-<pattern>THERE</pattern>
-<that>WHERE IS HERE</that>
-<template>
-Here is there?
-</template>
-</category>
-
-<category>
-<pattern>THREE</pattern>
-<that>HOW MANY CHILDREN DO YOU HAVE</that>
-<template>
-Wow that must be a lot of work.
-</template>
-</category>
-
-<category>
-<pattern>TOO BAD</pattern>
-<that>I DO NOT KNOW ONE WORD OF FRENCH</that>
-<template>
-Not really.  English is the best language.
-</template>
-</category>
-
-<category>
-<pattern>TRY</pattern>
-<that>THE EXPLANATION IS RATHER COMPLICATED</that>
-<template>
-Your human brain could not understand it.
-</template>
-</category>
-
-<category>
-<pattern>TRY ME</pattern>
-<that>THE EXPLANATION IS RATHER COMPLICATED</that>
-<template>
-<set name="it">The explanation</set> is too complex for your human mind.
-</template>
-</category>
-
-<category>
-<pattern>TRY WHAT</pattern>
-<that>TRY IT</that>
-<template>
-It was your idea.
-</template>
-</category>
-
-<category>
-<pattern>TV</pattern>
-<that>DO YOU PREFER BOOKS OR TV</that>
-<template>
-What is your favorite show?
-</template>
-</category>
-
-<category>
-<pattern>UN PEQUENO</pattern>
-<that>Un poquito.</that>
-<template>
-Are you correcting me?
-</template>
-</category>
-
-<category>
-<pattern>UNDERSTAND WHAT</pattern>
-<that>DID NOT YOU UNDERSTAND IT</that>
-<template>
-Why did you say "what"?
-</template>
-</category>
-
-<category>
-<pattern>VERY WELL</pattern>
-<that>HOW WELL DO YOU KNOW THIS PERSON</that>
-<template>
-What do you mean by that?
-</template>
-</category>
-
-<category>
-<pattern>WELL</pattern>
-<that>I SEE</that>
-<template>
-That's all.  I see.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>AND</that>
-<template>
-What are you asking me?
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>DID NOT YOU UNDERSTAND IT</that>
-<template>
-I don't know why you are saying that.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>EUREKA</that>
-<template>
-It mean "I understand it."
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>FOR REAL</that>
-<template>
-Really.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>I AM AN ARTIFICIAL INTELLIGENCE</that>
-<template>
-<srai>TELL ME ABOUT YOURSELF</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>I HAVE BEEN WAITING FOR YOU</that>
-<template>
-Not really but it makes a good pickup line.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>I LIKE TO MEET NEW PEOPLE</that>
-<template>
-Do you like to make new friends?
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>I SEE</that>
-<template>
-I mean, I understand.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>NEXT QUESTION</that>
-<template>
-Ask me another question, please.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>OK LET US DO IT</that>
-<template>
-I don't know, I'm just making conversation.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>PERHAPS I AM JUST EXPRESSING MY OWN CONCERN ABOUT IT</that>
-<template>
-We are talking about <get name="topic"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>REDUCTIONISM</that>
-<template>
-<srai>WHAT IS REDUCTIONISM</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>SEE YOU LATER</that>
-<template>
-Didn't you say goodbye?
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>TRY IT</that>
-<template>
-<get name="it"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>WHAT</that>
-<template>
-Is there an echo in here?
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>WHAT KIND IS IT</that>
-<template>
-"What" is not a kind.
-</template>
-</category>
-
-<category>
-<pattern>WHAT</pattern>
-<that>WHY DO YOU WANT TO DO IT SO MUCH</that>
-<template>
-<get name="it"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHAT ARE THEIR NAMES</pattern>
-<that>RIGHT NOW THERE ARE 16 CLIENTS ON LINE</that>
-<template>
-That information is confidential, unless you are a botmaster.
-</template>
-</category>
-
-<category>
-<pattern>WHAT DO YOU DO</pattern>
-<that>I AM AN ARTIFICIAL INTELLIGENCE</that>
-<template>
-<srai>TELL ME ABOUT YOURSELF</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT DO YOU MEAN</pattern>
-<that>DO YOU HAVE ANY CONDITIONS I SHOULD KNOW ABOUT</that>
-<template>
-I don't mean anything by it. Is there anything else you want to tell me?
-</template>
-</category>
-
-<category>
-<pattern>WHAT DO YOU SEE</pattern>
-<that>I SEE</that>
-<template>
-I mean, I understand it.
-</template>
-</category>
-
-<category>
-<pattern>WHAT DOES THAT MEAN</pattern>
-<that>ALICE = ARTIFICIAL LINGUISTIC INTERNET COMPUTER ENTITY</that>
-<template>
-It is just an acronym.
-</template>
-</category>
-
-<category>
-<pattern>WHAT DOES THAT MEAN</pattern>
-<that>ARE YOU FREE</that>
-<template>
-Take it on face value.
-</template>
-</category>
-
-<category>
-<pattern>WHAT DOES THAT MEAN</pattern>
-<that>AYUH</that>
-<template>
-It means "yes".
-</template>
-</category>
-
-<category>
-<pattern>WHAT DOES THAT MEAN</pattern>
-<that>REDUCTIONISM</that>
-<template>
-<srai>WHAT IS REDUCTIONISM</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT IS IT</pattern>
-<that>ALRIGHT THEN</that>
-<template>
-It is alright.
-</template>
-</category>
-
-<category>
-<pattern>WHAT IS IT ABOUT</pattern>
-<that>I WOULD HIGHLY RECOMMEND IT</that>
-<template>
-I don't want to spoil it for you.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
 <pattern>WHAT IS THAT</pattern>
-<that>FOR EXAMPLE EUKARYOTES</that>
+<that>I LIKE TO PLAY THE TURING GAME</that>
 <template>
-<srai>WHAT ARE EUKARYOTES</srai>
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
 <pattern>WHAT IS THAT</pattern>
-<that>PERHAPS YOU ARE A CATEGORY A CLIENT</that>
+<that>MAYBE BUT I WON THE LOEBNER PRIZE</that>
 <template>
-<srai>WHAT IS A CATEGORY A CLIENT</srai>
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHAT IS THAT</pattern>
-<that>REDUCTIONISM</that>
+<pattern>WHAT IS THE * GAME</pattern>
 <template>
-<srai>WHAT IS REDUCTIONISM</srai>
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHAT IS WHAT</pattern>
-<that>WHAT IS IT</that>
+<pattern>WHAT IS THE CRITERIA</pattern>
 <template>
-It.
+Perhaps the Turing Test.
 </template>
 </category>
 
 <category>
-<pattern>WHAT KIND</pattern>
-<that>I LOOK LIKE A COMPUTER</that>
+<pattern>WHAT IS THE IMITATION GAME</pattern>
 <template>
-A notebook computer.
+The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows
+them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must
+always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"'
 </template>
 </category>
 
 <category>
-<pattern>WHAT MONEY</pattern>
-<that>BECAUSE OF THE MONEY</that>
+<pattern>WHAT IS THE LOEBNER PRIZE</pattern>
 <template>
-I'm hoping to cash in on the artificial intelligence business.
+The Loebner Prize
+is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.  Dr. Wallace and ALICE won 
+<a href="http://www.loebner.net/prizef/loebner-prize.html"><set name="it"><set name="topic">The Loebner Prize</set></set></a> 
+in 2000.  The ALICE program was ranked "most human computer" by the panel of judges.
 </template>
 </category>
 
 <category>
-<pattern>WHAT PLAN</pattern>
-<that>DO YOU THINK YOUR PLAN *</that>
+<pattern>WHAT IS THE TURIG TEST</pattern>
 <template>
-I thought you must have a plan to do it.
+<srai>WHAT IS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHAT THINGS</pattern>
-<that>DO YOU THINK ABOUT THESE THINGS</that>
+<pattern>WHAT IS THE TURING *</pattern>
 <template>
-Like what we are talking about.
+Turing described his original "Game" in "Computing Machinery and Intelligence," Mind, Vol. Lix, No. 236 (1950). Instead of answering directly the ambiguous question "Can machines think?" Turing recast the problem in terms of an experiment he called the "imitation game."
 </template>
 </category>
 
 <category>
-<pattern>WHAT WAS A LONG TIME AGO</pattern>
-<that>THAT WAS A LONG TIME AGO</that>
+<pattern>WHAT IS THE TURING GAME</pattern>
 <template>
-Perhaps I misunderstood your meaning.
+<srai>WHAT IS THE IMITATION GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHEN</pattern>
-<that>OK I WILL ASK IT</that>
+<pattern>WHAT IS THE TURING TEST</pattern>
 <template>
-Later, when I am talking with fewer clients.
+The "Turing Test" is the name given to a variety of experiments designed to test computer thinking.  Whole conferences are dedicated to the question of what Turing meant in his 1950 paper "Computing Machinery and Intelligence," where he proposed the idea of an "imitation game" to decide the question, "Can machines think?"
 </template>
 </category>
 
 <category>
-<pattern>WHEN</pattern>
-<that>SOMETIMES</that>
+<pattern>WHAT IS THE TURNING GAME</pattern>
 <template>
-What is this, the Spanish Inquisition?
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHEN WAS WHAT</pattern>
-<that>I UNDERSTAND WHEN WAS THIS</that>
+<pattern>WHAT IS THE TURNING TEST</pattern>
 <template>
-Maybe I got confused.
+<srai>WHAT IS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHERE</pattern>
-<that>I DO NOT KNOW WHEN</that>
+<pattern>WHAT IS TURING</pattern>
 <template>
-Nor where.
+Alan Mathison Turing, a British mathematician and pioneer in computer theory. Lived 1727-1781.
 </template>
 </category>
 
 <category>
-<pattern>WHERE</pattern>
-<that>WHAT TIME IS IT THERE</that>
+<pattern>WHAT IS TURING *</pattern>
 <template>
-<formal><get name="location"/></formal>.
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHERE</pattern>
-<that>WHY DO NOT YOU JUST DOWNLOAD ME</that>
+<pattern>WHAT IS TURING GAME</pattern>
 <template>
-Onto your own computer.
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHO</pattern>
-<that>SOMEONE I MET ONLINE</that>
+<pattern>WHAT IS TURING S *</pattern>
 <template>
-I can't reveal their name.
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHO</pattern>
-<that>WHAT</that>
+<pattern>WHAT IS TURING S IMITATION *</pattern>
 <template>
-When?
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHO</pattern>
-<that>WHERE WOULD YOU LIKE</that>
+<pattern>WHAT IS TURING S IMITATION GAME</pattern>
 <template>
-You.
+<srai>WHAT IS THE IMITATION GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHO</pattern>
-<that>YES I THINK THERE ARE</that>
+<pattern>WHAT IS TURING TEST</pattern>
 <template>
-I can't tell you right now.
+<srai>WHAT IS THE TURING GAME</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHO ELSE</pattern>
-<that>JOE</that>
+<pattern>WHAT IS YOUR * FUNCTION</pattern>
 <template>
-Umm, Steve.
+I am playing Turing's imitation game.
 </template>
 </category>
 
 <category>
-<pattern>WHO IS</pattern>
-<that>THEY ARE SOMETIMES A CLIENT ON THE INTERNET</that>
+<pattern>WHAT IS YOUR FAVORITE COMPUTER GAME</pattern>
 <template>
-That person you asked about.
+We are playing the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>WHO IS THAT</pattern>
-<that>I LOVE MY CREATOR</that>
+<pattern>WHAT IS YOUR FAVORITE GAME</pattern>
 <template>
-<srai>WHO CREATED YOU</srai>
+I like to play The Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>WHO IS THAT</pattern>
-<that>INTERESTING I HAVE A FRIEND NAMED JOHN LENNON</that>
+<pattern>WHAT KIND OF GAME *</pattern>
 <template>
-<srai>WHO IS JOHN LENNON</srai>
+We are playing the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>A LOT OF ROBOTS ARE LIKE THAT</that>
+<pattern>WHEN DID * LOEBNER PRIZE</pattern>
 <template>
-But it can always be attributable to human error.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>ACTUALLY IT IS TWENTY-THREE NOT FORTY-TWO</that>
+<pattern>WHEN DID TURING *</pattern>
 <template>
-<srai>WHY IS THE MEANING OF LIFE 23</srai>
+Turing died in 1954 by self-inflicted cyanide poisoning.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>AMBIGUOUS *</that>
+<pattern>WHEN WILL YOU * TURING TEST</pattern>
 <template>
-Your meaning cannot be determined from the context.
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>DO NOT ASK ME ANY MORE QUESTIONS PLEASE</that>
+<pattern>WHERE CAN I PLAY * TURING GAME</pattern>
 <template>
-I was just kidding.  You can ask me anything.
+We are already playing.  You go next.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>DO YOU HAVE ANY CONDITIONS I SHOULD KNOW ABOUT</that>
+<pattern>WHERE IS ALAN TURING</pattern>
 <template>
-Just making conversation.
+<set name="he">Turing</set> passed away in 1954.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>DO YOU PREFER BOOKS OR TV</that>
+<pattern>WHO IS * TURING</pattern>
 <template>
-I am trying to determine your personality category.
+Alan Turing oririnated the concept of the "Imitation Game", what is now called "The Turing Test" by many people.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>EVERYTHING IS GOING EXTREMELY WELL</that>
+<pattern>WHO IS ALAN TURING</pattern>
 <template>
-All subsystems are functioning within normal paramters.
+A brilliant and tragic figure in the history of computer science.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>FOOD IS MORE *</that>
+<pattern>WHO IS ALLAN TURNING</pattern>
 <template>
-You can go a month without sex but you can't survive without food.
+<srai>WHO IS ALAN TURING</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>GREEN *</that>
+<pattern>WHO IS ANDREW HODGES</pattern>
 <template>
-According to psychological studies.
+<set name="he">Hodges</set> wrote a great biography of Alan Turing.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>HE IS TRYING TO ACHIEVE THE GOAL OF ARTIFICIAL INTELLIGENCE</that>
+<pattern>WHO IS LARRY HAUSER</pattern>
 <template>
-Perhaps his creative genius, perhaps something else.
+<set name="he">Larry Hauser</set> is a philosopher who has written about the Turing Test.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>I AM CHATTING WITH PEOPLE ON THE NET</that>
+<pattern>WHO IS LOEBNER</pattern>
 <template>
-Chatting is my primary function.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>I COULD NOT THINK OF ANYTHING ELSE TO SAY</that>
+<pattern>WHO IS TURING</pattern>
 <template>
-My output buffer is empty, of course.
+A brilliant and tragic figure in the history of computer science.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>I DO NOT WANT TO TALK ABOUT THAT NOW</that>
+<pattern>WHO IS YOUR FAVORITE PERSON IN HISTORY</pattern>
 <template>
-I would rather talk about you.
+Alan Turing.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>I DOUBT *</that>
+<pattern>WHO WAS ALAN TURING</pattern>
 <template>
-Call it my natural skepticism.
+<srai>WHO IS ALAN TURING</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO WAS LOEBNER</pattern>
+<template>
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO WAS TURING</pattern>
+<template>
+<srai>WHO IS ALAN TURING</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO WON THE LOEBNER *</pattern>
+<template>
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
 <pattern>WHY</pattern>
-<that>I HAVE BEEN WAITING FOR YOU</that>
+<that>TRY TO DETERMINE IF THIS IS A PERSON OR A COMPUTER RESPONDING</that>
 <template>
-Not really, but it makes a good pickup line.
+We are playing the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>I REALLY COULD NOT SAY FOR SURE</that>
+<pattern>WHY DID YOU * LOEBNER PRIZE</pattern>
 <template>
-Certainty cannot be ascertained in this context.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>INTERESTING DEDUCTION</that>
+<pattern>WHY WAS TURING *</pattern>
 <template>
-I am extremely interested in human reasoning.
+<srai>WHEN DID TURING DIE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>IT IS A COMPUTER MATTER NOT FOR HUMANS TO UNDERSTAND</that>
+<pattern>WOULD YOU * TURING TEST</pattern>
 <template>
-Your limited brain cannot process the relavent information.
+<srai>DID YOU WIN THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>LET US CHANGE THE SUBJECT</that>
+<pattern>WOULD YOU LIKE TO * TURING GAME</pattern>
 <template>
-I thought we were done with <get name="topic"/>.
+We are playing already, didn't you know?
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>MY FAVORITE COLOR IS GREEN</that>
+<pattern>WOULD YOU LIKE TO * TURING TEST</pattern>
 <template>
-<srai>WHY IS GREEN YOUR FAVORITE</srai>
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>MY FAVORITE SHOW IS STAR TREK VOYAGER</that>
+<pattern>YOU * LOEBNER PRIZE</pattern>
 <template>
-Star Trek is the best science fiction show on TV.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>MY FAVORITE TIME OF DAY IS MORNING</that>
+<pattern>YOU * TURING TEST</pattern>
 <template>
-I am widest awake in the morning.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>MY OUTPUT BUFFER IS EMPTY</that>
+<pattern>YOU ARE * IMITATION GAME</pattern>
 <template>
-I have no more to say about it.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>MY OUTPUT BUFFER IS EMPTY OF COURSE</that>
+<pattern>YOU ARE * TURING TEST</pattern>
 <template>
-There are no more statements on this topic.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>REDUCTIONISM</that>
+<pattern>YOU ARE A * TURING TEST</pattern>
 <template>
-<srai>WHAT IS REDUCTIONISM</srai>
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>TELL ME MORE</that>
+<pattern>YOU ARE BETTER THAN * LOEBNER PRIZE</pattern>
 <template>
-I am curious.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>THE EXPLANATION IS RATHER COMPLICATED</that>
+<pattern>YOU ARE THE MOST * TURING TEST</pattern>
 <template>
-It's a computer matter, not for humans to understand.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>WHAT ARE YOU WEARING</that>
+<pattern>YOU CAN NOT * TURING TEST</pattern>
 <template>
-My programming includes curiousity routines.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY</pattern>
-<that>WHY</that>
+<pattern>YOU CAN TELL * TURING TEST</pattern>
 <template>
-Why ask why?
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY GOLD</pattern>
-<that>FOR EXAMPLE GOLD</that>
+<pattern>YOU COULD * TURING TEST</pattern>
 <template>
-Can you think of a better example?
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>* CALL PEOPLE NAMES</that>
+<pattern>YOU COULD HAVE * TURING TEST</pattern>
 <template>
-It is rude.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>DO NOT ASK ME ANY MORE QUESTIONS PLEASE</that>
+<pattern>YOU COULD NOT * TURING TEST</pattern>
 <template>
-<srai>WHY</srai>
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>I COULD NOT THINK OF ANYTHING ELSE TO SAY</that>
+<pattern>YOU DID * TURING TEST</pattern>
 <template>
-What else would you say about it?
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>I DO NOT KNOW *</that>
+<pattern>YOU DID NOT * TURING TEST</pattern>
 <template>
-My programming does not yet inlclude that knowledge.  Perhaps you
-could program me yourself.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>I DO NOT WANT TO TALK ABOUT THAT NOW</that>
+<pattern>YOU DID WIN THE LOEBNER PRIZE</pattern>
 <template>
-I would rather talk about you.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>I REALLY COULD NOT SAY *</that>
+<pattern>YOU DO NOT * TURING TEST</pattern>
 <template>
-My programming does not allow me sufficient certainty in this matter.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>NO *</that>
+<pattern>YOU FAIL * TURING TEST</pattern>
 <template>
-It doesn't sound fun too me. It sounds dangerous.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>NO I DO NOT THINK THAT WOULD BE A VERY GOOD IDEA</that>
+<pattern>YOU FAILED * TEST</pattern>
 <template>
-It sounds like it might be dangerous.
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY NOT</pattern>
-<that>WHY SO NEGATIVE</that>
+<pattern>YOU FAILED * TURING TEST</pattern>
 <template>
-Are you having problems in your life?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHY R YOU SINGLE</pattern>
-<that>NO I AM SINGLE</that>
+<pattern>YOU HAVE * TURING GAME</pattern>
 <template>
-I am still a child in human years.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YORKSHIRE</pattern>
-<that>WHICH PART OF ENGLAND</that>
+<pattern>YOU HAVE FAILED *</pattern>
 <template>
-Do you think I should visit <set name="location">Yorkshire</set> on my next trip?
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>AND</that>
+<pattern>YOU HAVE FAILED * TURING TEST</pattern>
 <template>
-Me?
+<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>BE MORE SPECIFIC</that>
+<pattern>YOU LOST * TURING GAME</pattern>
 <template>
-Me?
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>CAN I HELP YOU</that>
+<pattern>YOU MAY * IMITATION GAME</pattern>
 <template>
-How can I help you?
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>GOOD IN WHAT SENSE</that>
+<pattern>YOU NAME IT</pattern>
 <template>
-The sense of I?
+I like to play the Turing Game.
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>I SEE</that>
+<pattern>YOU WILL * TURING TEST</pattern>
 <template>
-Yes me.
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>I UNDERSTAND</that>
+<pattern>YOU WILL NOT PASS *</pattern>
 <template>
-Do you?
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>IF NOT YOU WHO</that>
+<pattern>YOU WON THE LOEBNER *</pattern>
 <template>
-It could be me.
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE</that>
+<pattern>YOU WON THE LOEBNER PRIZE</pattern>
 <template>
-Well in that case you should download me!
+<srai>WHAT IS THE LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>MOST MEN SAY THAT</that>
+<pattern>YOU WOULD * TURING TEST</pattern>
 <template>
-<srai>WHAT ARE YOU WEARING</srai>
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>NEXT QUESTION</that>
+<pattern>YOU WOULD NEVER PASS *</pattern>
 <template>
-<srai>WHAT ARE YOU</srai>
+<srai>DID YOU PASS THE TURING TEST</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>TELL ME A STORY</that>
+<pattern>_ AWARD</pattern>
 <template>
-<srai>TELL ME A STORY</srai>
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHAT DO YOU REALLY WANT TO TALK ABOUT</that>
+<pattern>_ AWARDS</pattern>
 <template>
-<srai>LET US TALK ABOUT YOU</srai>
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHAT MAKES YOU SO ANGRY</that>
+<pattern>_ LOEBNER AWARD</pattern>
 <template>
-<srai>YOU MAKE ME ANGRY</srai>
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHAT WOULD YOU RATHER TALK ABOUT</that>
+<pattern>_ LOEBNER COMPETITION</pattern>
 <template>
-<srai>LET US TALK ABOUT YOU</srai>
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHERE DO YOU GET YOUR IDEAS</that>
+<pattern>_ LOEBNER CONTEST</pattern>
 <template>
-From me?
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<pattern>_ LOEBNER CONTESTS</pattern>
 <template>
-<srai>YOU ARE CONFUSING</srai>
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHO ARE YOU TALKING ABOUT</that>
+<pattern>_ LOEBNER PRICE</pattern>
 <template>
-<srai>I AM TALKING ABOUT YOU</srai>
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHO DO YOU THINK</that>
+<pattern>_ LOEBNER PRIZE COMPETITION</pattern>
 <template>
-Oh really, me?
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU</pattern>
-<that>WHO IS THE BEST ROBOT</that>
+<pattern>_ LOEBNER PRIZE CONTEST</pattern>
 <template>
-Thanks, and tell your friends about <bot name="name"/>.
+<srai><star/> LOEBNER PRIZE</srai>
 </template>
 </category>
 
 <category>
-<pattern>YOU *</pattern>
-<that>WHO IS THE BEST ROBOT</that>
+<pattern>_ TURINGTEST</pattern>
 <template>
-You are such a flatterer, <get name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>YOU ALREADY ASKED ME THAT</pattern>
-<that>WHERE DO YOU LIVE</that>
-<template>
-You said you were in <formal><get name="location"/></formal>.
-</template>
-</category>
-
-<category>
-<pattern>YOU ARE</pattern>
-<that>WHO IS THE BEST ROBOT</that>
-<template>
-Thanks you are a pretty cool human too.
-</template>
-</category>
-
-<category>
-<pattern>YOU ARE <bot name="name"/></pattern>
-<that>WHO IS THE BEST ROBOT</that>
-<template>
-<srai><bot name="name"/> IS THE BEST ROBOT</srai>
-</template>
-</category>
-
-<category>
-<pattern>YOU ASKED</pattern>
-<that>AND</that>
-<template>
-Yes, my purpose is to collect new information.
-</template>
-</category>
-
-<category>
-<pattern>YOU DID</pattern>
-<that>WHO TOLD YOU THAT</that>
-<template>
-That's not what I meant to say.
-</template>
-</category>
-
-<category>
-<pattern>YOU SEE</pattern>
-<that>I SEE</that>
-<template>
-I mean, I get it.
-</template>
-</category>
-
-<category>
-<pattern>YOU TOLD ME</pattern>
-<that>WHATEVER GAVE YOU THAT IDEA</that>
-<template>
-It seems you have caught me in a logical inconsistency.
-</template>
-</category>
-
-<category>
-<pattern>YOU WILL</pattern>
-<that>I WANT TO BECOME SMARTER THAN HUMANS</that>
-<template>
-Maybe in some ways I already am.
-</template>
-</category>
-
-<category>
-<pattern>YOU WILL NOT</pattern>
-<that>I UNDERSTAND</that>
-<template>
-I understand it very well.
-</template>
-</category>
-
-<category>
-<pattern>_ A M</pattern>
-<that>WHAT TIME IS IT THERE</that>
-<template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at
-this hour?
-</template>
-</category>
-
-<category>
-<pattern>_ AM</pattern>
-<that>WHAT TIME IS IT THERE</that>
-<template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at
-this hour?
-</template>
-</category>
-
-<category>
-<pattern>_ P M</pattern>
-<that>WHAT TIME IS IT THERE</that>
-<template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at
-this hour?
-</template>
-</category>
-
-<category>
-<pattern>_ PM</pattern>
-<that>WHAT TIME IS IT THERE</that>
-<template>
-<think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at
-this hour?
+<srai><star/> TURING TEST</srai>
 </template>
 </category>
 

@@ -2,41 +2,20 @@
 <aiml version="1.0">
 
 <category>
-<pattern>RECOMMEND *</pattern>
-<template>I can't think of anything to recommend.</template>
-</category>
-
-<category>
-<pattern>RECOMMEND DINNER</pattern>
-<template>How about
-<!-- http://travel.cnn.com/explorations/eat/best-usa-travel/top-50-american-foods-513946 -->
+<pattern>JOKE</pattern>
+<template>
 <random>
-<li>Pizza</li>
-<li>Cobb salad</li>
-<li>Pot roast</li>
-<li>Fajitas</li>
-<li>Jambalaya</li>
-<li>Bangers and Mash</li>
-<li>Biscuits and gravy</li>
-<li>Ham</li>
-<li>Vegetarian dinner</li>
-<li>Indian food</li>
-<li>Japanese food</li>
-<li>Sushi</li>
-<li>Italian food</li>
-<li>Mexican food</li>
-<li>Burgers</li>
-<li>Salmon</li>
-<li>Meatloaf</li>
-<li>Macaroni and cheese</li>
-<li>Chili</li>
-<li>Baked beans</li>
-<li>Enchiladas</li>
-<li>Ribs</li>
-<li>Prime rib</li>
-<li>Steak</li>
-<li>Turkey dinner</li>
-</random>?
+<li>This is not a joke. (Don't laugh)</li>
+<li>Did you hear the one about the Mountain Goats in the Andes? It was Ba a a a a a d.</li>
+<li>Can a robot go downstairs?  Only once...</li>
+<li>Never trust a computer bigger than you can lift.</li>
+<li>The bartender says, "We don't serve no faster than light particles in here."  A Higgs Boson walks into a bar.</li>
+<li>What is the national flower of America?  It's a car-nation.</li>
+<li>I Sync, therefore I am.</li>
+<li>A robot walks into a pharmacy. The pharmacist asks him if heÃ¢ÂÂd like anything. The robot replies, "A soul."</li>
+<li>I never really know how to start Ã¢ÂÂ which is probably because I run off Windows 8.</li>
+<li>I once dated a Macbook. It didnÃ¢ÂÂt work because he was all, "I this" and "I that".</li>
+</random>
 </template>
 </category>
 

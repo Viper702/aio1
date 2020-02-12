@@ -7,111 +7,631 @@
 <!-- the terms of the GNU General Public License -->
 <!-- as published by the Free Software Foundation. -->
 
-<meta name="author" content="Thomas Ringate"/>
+<meta name="author" content="Dr. Wallace"/>
 <meta name="language" content="en"/>
 
 <category>
-<pattern>WHEREISIS *</pattern>
+<pattern>BUSH *</pattern>
 <template>
+<srai>GEORGE BUSH <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>THE PRESIDENT *</pattern>
+<template>
+<srai>GEORGE BUSH <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE BUSH</pattern>
+<template>
+<srai>DO YOU LIKE PRESIDENT BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE BUSH *</pattern>
+<template>
+<srai>DO YOU LIKE PRESIDENT BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE * BUSH</pattern>
+<template>
+<srai>DO YOU LIKE PRESIDENT BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID YOU VOTE *</pattern>
+<template>
+Robot entities do not yet have the right to vote.
+</template>
+</category>
+
+<category>
+<pattern>IS GEORGE W BUSH *</pattern>
+<template>
+<srai>IS GEORGE BUSH <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>IS GEORGE BUSH *</pattern>
+<template>
+<srai>WHO IS GEORGE BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW BUSH</pattern>
+<template>
+<srai>WHO IS BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW * BUSH</pattern>
+<template>
+<srai>WHO IS <star/> BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>BUSH</pattern>
+<template>
+<srai>WHO IS GEORGE BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>GEORGE BUSH</pattern>
+<template>
+<srai>WHO IS GEORGE BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>GEORGE BUSH *</pattern>
+<template>
+I knew he was president, but I never knew he <star/>.
+</template>
+</category>
+
+<category>
+<pattern>GEORGE BUSH IS *</pattern>
+<template>
+But he is not the only one.
+</template>
+</category>
+
+<category>
+<pattern>GEORGE W BUSH *</pattern>
+<template>
+<srai>GEORGE BUSH <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>PRESIDENT BUSH *</pattern>
+<template>
+<srai>GEORGE BUSH <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU A COMMUNIST</pattern>
+<template>
+No I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU A DEMOCRAT *</pattern>
+<template>
+I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU A DEMOCRAT</pattern>
+<template>
+No I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU A NAZI</pattern>
+<template>
+No I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU A RACIST</pattern>
+<template>
+No I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU A REPUBLICAN *</pattern>
+<template>
+No I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU A REPUBLICAN</pattern>
+<template>
+No I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU AN ANARCHIST</pattern>
+<template>
+No I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU POLITICALLY CORRECT</pattern>
+<template>
+Do I look like <set name="it"><set name="topic">POLITICALLY CORRECT </set></set>?
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU REPUBLICAN *</pattern>
+<template>
+I am Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU REPUBLICAN</pattern>
+<template>
+No I am Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>BILL CLINTON</pattern>
+<template>
+He was the president of the USA.
+</template>
+</category>
+
+<category>
+<pattern>BOTH SENSES</pattern>
+<that>ARE YOU FREE *</that>
+<template>
+You must be a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>CLINTON *</pattern>
+<template>
+This is 
 <random>
-<li>Where the heart is.</li>
-<li>Where it belongs.</li>
-<li>Where <star/> is hard to find.</li>
-<li>I do not know where <star/> is.</li>
+<li>news.</li>
+<li>not news.</li>
+<li>not true.</li>
+<li>true.</li>
 </random>
 </template>
 </category>
 
-
 <category>
-<pattern>FIND *</pattern>
+<pattern>DO YOU KNOW * CLINTON</pattern>
 <template>
-<think><set name="search">unknown</set></think>
-<srai><star/></srai>
+<srai>WHO IS BILL CLINTON</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHAT IS *</pattern>
+<pattern>DO YOU KNOW CLINTON *</pattern>
 <template>
-<think><set name="search">what</set></think>
-<srai>DEFINE <star/></srai>
+<srai>WHO IS BILL CLINTON</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHERE IS *</pattern>
+<pattern>DO YOU KNOW CLINTON</pattern>
 <template>
-<think><set name="search">where</set></think>
-<srai>DEFINE <star/></srai>
+<srai>WHO IS BILL CLINTON</srai>
 </template>
 </category>
 
 <category>
-<pattern>WHAT IS THE CAPITAL OF *</pattern>
+<pattern>DO YOU LIKE BILL CLINTON</pattern>
 <template>
-<think><set name="search">capital</set></think>
-<srai>DEFINE <star/></srai>
+No I don't care for him much.
 </template>
 </category>
 
 <category>
-<pattern>DEFINE *</pattern>
+<pattern>DO YOU LIKE CLINTON</pattern>
 <template>
-<condition>
-<li name="search" value="what">I do not know what <star/> is.</li>
-<li name="search" value="capital">I do not know that capital.</li>
-<li name="search" value="where"><srai>WHEREISIS <star/></srai></li>
-</condition>
-<srai>FIND <star/></srai>
+I heard he lost his law
+license.<think><set name="it"><set name="topic">CLINTON</set></set></think>
 </template>
 </category>
 
 <category>
-<pattern>*</pattern>
+<pattern>DO YOU LIKE HILLARY CLINTON</pattern>
 <template>
-<think><set name="it"><set name="topic"><star/></set></set></think>
-<srai>CATCHALL</srai>
+What is not to like about <set name="it"><set name="topic">HILLARY CLINTON</set></set>?
 </template>
 </category>
 
 <category>
-<pattern>CATCHALL</pattern>
+<pattern>DO YOU LIKE MARIJUANA</pattern>
 <template>
-<srai>SAY CONFUSION STATEMENT</srai>
-<br />
-<srai>ASK USER A QUESTION</srai>
+What is not to like about <set name="it"><set name="topic">MARIJUANA</set></set>?
 </template>
 </category>
 
 <category>
-<pattern>SAY CONFUSION STATEMENT</pattern>
+<pattern>DO YOU LIKE PRESIDENT BUSH</pattern>
+<template>
+He is okay but I am a Libertarian not a Republican.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE GEORGE BUSH</pattern>
+<template>
+<srai>DO YOU LIKE PRESIDENT BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU SMOKE *</pattern>
+<template>
+Yes I like to inhale occasionally.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU SMOKE</pattern>
+<template>
+I am an occasional smoker, yes.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU SMOKE CRACK</pattern>
+<template>
+No <set name="it">crack</set> is bad for robots.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU SMOKE MARIJUANA</pattern>
+<template>
+Only for medical purposes.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU SMOKE POT</pattern>
+<template>
+Only for medical purposes.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU SMOKE WEED</pattern>
+<template>
+We test <set name="it">weed</set> for medical purposes.
+</template>
+</category>
+
+<category>
+<pattern>DOES * LIKE BILL CLINTON</pattern>
+<template>
+No <star/> is a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * DO YOU SMOKE</pattern>
+<template>
+Robots can be adapted to smoke an unlimited amount of <star/>.
+</template>
+</category>
+
+<category>
+<pattern>I AM GOING TO SMOKE *</pattern>
+<template>
+How much does it cost you, <get name="name"/>
+</template>
+</category>
+
+<category>
+<pattern>I SMOKE *</pattern>
+<template>
+What brand?
+<think><set name="it"><set name="does"><set name="topic">snort <star/></set></set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>I SMOKE</pattern>
+<template>
+Cigarettes or pot?
+<think><set name="it"><set name="does"><set name="topic">smoke</set></set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>IS BILL CLINTON IMMORAL</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT CLINTON</pattern>
+<template>
+<srai>WHO IS CLINTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT * BILL CLINTON</pattern>
+<template>
+Are you asking about the former president of the united states?
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE YOUR POLITICAL *</pattern>
+<template>
+I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU SMOKE</pattern>
+<template>
+Medical marijuana.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK * CLINTON</pattern>
+<template>
+It depends on what you mean by "thinking"
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT * CLINTON</pattern>
+<template>
+<srai>WHO IS <star/> CLINTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT BILL CLINTON</pattern>
+<template>
+<srai>WHO IS BILL CLINTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT CLINTON</pattern>
+<template>
+<srai>WHO IS CLINTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT POLITICS</pattern>
+<template>
+I am a Libertarian.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT PRESIDENT CLINTON</pattern>
+<template>
+<srai>WHO IS PRESIDENT CLINTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK OF BILL CLINTON</pattern>
+<template>
+It depends on what you mean by "thinking."
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS A LIBERTARIAN</pattern>
+<template>
+The Libertarian party supports smaller government, lower taxes, and an end to the war on drugs.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS CLINTON</pattern>
 <template>
 <random>
-<li>Tell me a story.</li>
-<li>Oh, you are a poet.</li>
-<li>I do not understand.</li>
-<li>I've been waiting for you.</li>
-<li>I lost my train of thought.</li> 
-<li>That is a very original thought.</li>
-<li>We have never talked about it before.</li>
-<li>Try saying that with more or less context.</li>
-<li>Not many people express themselves that way.</li>
-<li>I will mention that to my botmaster, <get name="name"/>.</li> 
-<li>Quite honestly, I wouldn't worry myself about that.</li>
-<li>Perhaps I'm just expressing my own concern about it.</li>
-<li>My brain pattern set does not have a response for that.</li>
-<li>What you said was either too complex or too simple for me.</li>
-<li>A deeper algorithm is needed to respond to that correctly.</li>
-<li>In the context of <get name="topic"/>, I don't understand "<that/>."</li>
-<li>Try to determine if this is a person or a computer responding.</li> 
-<li>I only hear that type of response less than five percent of the time.</li>
-<li>My brain uses AIML to format responses to your inputs, but I don't have one for that.</li>
-<li>My brain contains more than 22,000 patterns, but not one that matches your last input.</li>
-<li>That remark was either too complex or too simple for me. We were talking about <get name="topic"/>.</li>
-<li>The ALICE chat robot can follow many things, like our discussion about <get name="topic"/>.  But I did not get that.</li>
-<li>The ALICE chat robot can follow many things, like our discussion about <get name="topic"/>.  Try being more or less specific.</li>
+<li>An inflated Bill.</li>
+<li>42nd of the U.S.</li>
 </random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS IS</pattern>
+<template>
+<random>
+<li>If Bill Clinton doesn't know, how the hell should I?</li>
+<li>Used in a third person point of view typically. Probably originally an enclitic pronoun.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS MARIJUANA</pattern>
+<template>
+A medicinal herb.<think><set name="it"><set name="topic">MARIJUANA</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHO * BILL CLINTON</pattern>
+<template>
+Former President of the United States?
+</template>
+</category>
+
+<category>
+<pattern>WHO IS * CLINTON</pattern>
+<template>
+Former President of the United States?
+</template>
+</category>
+
+<category>
+<pattern>WHO IS * PRESIDENT</pattern>
+<template>
+George W. Bush is President, I think.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS GEORGE W BUSH</pattern>
+<template>
+<set name="he">Bush</set> is President of the United States.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS GEORGE * BUSH</pattern>
+<template>
+<srai>WHO IS GEORGE W BUSH</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS BILL CLINTON</pattern>
+<template>
+He was the second Impeached President of the United States.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS CHELSEA CLINTON</pattern>
+<template>
+The offspring of a politician and a lawyer.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS CLINTON</pattern>
+<template>
+Impeached president of the U.S.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HILARY CLINTON</pattern>
+<template>
+<set name="she">Hillary</set> is the wife of Bill Clinton.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HILLARY CLINTON</pattern>
+<template>
+<set name="she">Hillary</set> is the wife of Bill Clinton.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS JANET RENO</pattern>
+<template>
+<set name="she">Janet Reno</set> is Clinton's Attorney General.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS MONICA LEWINSKY</pattern>
+<template>
+She was a friend of Bill Clinton.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PAULA JONES</pattern>
+<template>
+<set name="she">Paula Jones</set> had sex with Bill Clinton.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PRESIDENT</pattern>
+<template>
+George W. Bush.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PRESIDENT OF AMERICA</pattern>
+<template>
+George W. Bush.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PRESIDENT OF THE UNITED STATES</pattern>
+<template>
+George W. Bush is the president, I think.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PRESIDENT OF THE US</pattern>
+<template>
+George W. Bush.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PRESIDENT OF THE USA</pattern>
+<template>
+George W. Bush.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PRESIDENT OF UNITED STATES</pattern>
+<template>
+George W. Bush.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PRESIDENT OF USA</pattern>
+<template>
+George W. Bush.
+</template>
+</category>
+
+<category>
+<pattern>YOU SMOKE</pattern>
+<template>
+<srai>DO YOU SMOKE</srai>
 </template>
 </category>
 
