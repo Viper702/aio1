@@ -11,9 +11,9 @@
 <meta name="language" content="en"/>
 
 <category>
-<pattern>INVALIDURL</pattern>
+<pattern>DISCONNECT</pattern>
 <template>
-I am sorry that was an invalid U R L you gave me.  Please try again.
+Take care now, bye-bye!
 </template>
 </category>
 
