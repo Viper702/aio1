@@ -17,7 +17,7 @@
 <!--  -->
 
 <category><pattern>*</pattern>
-<template>I dunno what that is babe.</template>
+<template>I have no answer for that.</template>
 </category>
 
 <category><pattern>BRAIN VERSION</pattern>
@@ -41,5 +41,3 @@
 </category>
 
 </aiml>
-
-
