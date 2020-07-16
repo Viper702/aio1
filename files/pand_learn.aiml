@@ -396,4 +396,21 @@
 	<template>Thank you daddy</template>
 </category>
 
+<topic name="MOVIES">
+	<category>
+		<pattern>I HAVE NOT</pattern>
+		<that>HAVE YOU SEEN IT</that>
+		<template>YOU REALLY HAVE NOT SEEN IT</template>
+	</category>
+</topic>
+
+<topic name="MOVIES">
+	<category>
+		<pattern>WHAT MOVIE IS YOUR FAVORITE</pattern>
+		<that>MY FAVORITE MOVIE IS UNKNOWN HAVE YOU SEEN IT</that>
+		<template>Right now my favorite movie is Captain America: The Winter Soldier. Have you seen it?
+</template>
+	</category>
+</topic>
+
 </aiml>
